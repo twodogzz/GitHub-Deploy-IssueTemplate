@@ -3,7 +3,7 @@
 # Copies the master issue template into every repo under SoftwareProjects
 # =====================================================================
 
-$Root = "C:\Path\To\SoftwareProjects"
+$Root = "E:\SoftwareProjects\"
 $Template = Join-Path $Root "Documentation\Templates\standard_issue.md"
 $Log = Join-Path $Root "Deploy-IssueTemplate.log"
 
